@@ -8,6 +8,8 @@
 
 // Last modified 8 Aug 2023
    
+// This file is "connected" to the main module, but the actual main
+// point of the code is gpf.go
 
 
 package main

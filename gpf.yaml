@@ -15,7 +15,7 @@ accounts:
           visibility: public
           sensitive: false
           contentwarning: ""
-          timejitter: 50s
+          timejitter: 2m0s
         - url: https://alerts.weather.gov/cap/me.php?x=1
           template: |-
             Maine
@@ -28,10 +28,10 @@ accounts:
           visibility: public
           sensitive: false
           contentwarning: ""
-          timejitter: 50s
-        - url: https://alerts.weather.gov/cap/um.php?x=1
+          timejitter: 2m0s
+        - url: https://alerts.weather.gov/cap/nh.php?x=1
           template: |-
-            Midway Island
+            New Hampshire
             {{.Title}}
 
             {{.Summary}}
@@ -41,10 +41,12 @@ accounts:
           visibility: public
           sensitive: false
           contentwarning: ""
-          timejitter: 50s
-        - url: https://wx1box.org/feed
+          timejitter: 2m0s
+        - url: https://alerts.weather.gov/cap/vt.php?x=1
           template: |-
-            w1xbox
+            Vermont
+            {{.Title}}
+
             {{.Summary}}
 
             {{.URL}}
@@ -52,11 +54,48 @@ accounts:
           visibility: public
           sensitive: false
           contentwarning: ""
-          timejitter: 50s
-lastupdated: 2023-08-09T13:46:59.385242871-04:00
+          timejitter: 2m0s
+        - url: https://alerts.weather.gov/cap/ri.php?x=1
+          template: |-
+            Rhode Island
+            {{.Title}}
+
+            {{.Summary}}
+
+            {{.URL}}
+          format: plain
+          visibility: public
+          sensitive: false
+          contentwarning: ""
+          timejitter: 2m0s
+        - url: https://alerts.weather.gov/cap/ct.php?x=1
+          template: |-
+            Connecticut
+            {{.Title}}
+
+            {{.Summary}}
+
+            {{.URL}}
+          format: plain
+          visibility: public
+          sensitive: false
+          contentwarning: ""
+          timejitter: 2m0s
+        - url: https://wx1box.org/feed
+          template: |-
+            WX1BOX Roundup
+            {{.Summary}}
+
+            {{.URL}}
+          format: plain
+          visibility: public
+          sensitive: false
+          contentwarning: ""
+          timejitter: 2m0s
+lastupdated: 2023-08-09T16:09:40.94578866-04:00
 httpconfig:
     useragent: gpf/1.1.3
 meta:
     name: gpf
     version: 1.1.3
-    buildtime: "2023-08-09T17:46:58Z"
+    buildtime: "2023-08-09T20:04:19Z"
