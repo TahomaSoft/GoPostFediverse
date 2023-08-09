@@ -1,4 +1,4 @@
-module gpf
+module GoPostFediverse
 
 go 1.18
 
