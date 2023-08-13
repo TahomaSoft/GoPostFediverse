@@ -41,7 +41,7 @@ accounts:
           visibility: public
           sensitive: false
           contentwarning: ""
-          timejitter: 2m0s
+          timejitter: 2m45s
         - url: https://alerts.weather.gov/cap/vt.php?x=1
           template: |-
             Vermont
