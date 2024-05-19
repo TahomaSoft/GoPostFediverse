@@ -7,5 +7,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-require github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394 // indirect
-							    
+require (
+	github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)

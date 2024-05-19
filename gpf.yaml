@@ -16,9 +16,9 @@ accounts:
           sensitive: false
           contentwarning: ""
           timejitter: 2m0s
-        - url: https://alerts.weather.gov/cap/me.php?x=1
+        - url: https://www.boston.com/tag/local-news/?feed=rss
           template: |-
-            Maine
+            Boston.com Local News
             {{.Title}}
 
             {{.Summary}}
@@ -103,10 +103,10 @@ accounts:
           sensitive: false
           contentwarning: ""
           timejitter: 2m0s
-lastupdated: 2023-08-17T22:15:26.716544255-04:00
+lastupdated: 2024-05-19T10:23:42.530200739-04:00
 httpconfig:
     useragent: gpf/1.1.3
 meta:
     name: gpf
     version: 1.1.3
-    buildtime: "2023-08-09T20:04:19Z"
+    buildtime: "2024-05-19T14:23:40Z"
