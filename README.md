@@ -28,7 +28,7 @@ gof supports multiple feeds and multiple accounts.
 
 ## requirements
 
-* Go 1.16
+* Go 1.21
 
 ## installation
 

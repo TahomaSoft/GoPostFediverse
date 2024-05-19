@@ -1,6 +1,10 @@
 module GoPostFediverse
 
+<<<<<<< HEAD
 go 1.18
+=======
+go 1.21
+>>>>>>> Upstream-Main
 
 require (
 	github.com/SlyMarbo/rss v1.0.5
